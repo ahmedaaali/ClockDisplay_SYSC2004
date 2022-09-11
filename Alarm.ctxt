@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Alarm
+comment0.text=\n\ Write\ a\ description\ of\ class\ Alarm\ here.\n\n\ @author\ Ahmed\ Ali\ (101181126)\n\ @version\ 2022.01.29\n
+comment1.params=
+comment1.target=Alarm()
+comment1.text=\n\ Constructor\ for\ Alarm\ objects.\ This\ consturctor\ initiates\ a\ new\ \n\ instance\ of\ Clock\ set\ at\ "12\:00a.m."\ and\ makes\ sure\ its\ unset\ as\n\ default\n
+comment2.params=hour\ minute\ amPm\ alarmSet
+comment2.target=Alarm(int,\ int,\ java.lang.String,\ boolean)
+comment2.text=\n\ Constructor\ for\ Alarm\ objects.\ This\ constructor\ creates\ a\ new\ instance\n\ of\ Clock\ set\ at\ the\ time\ specified\ by\ the\ parameters\ specified\ by\ the\n\ user\ and\ whether\ the\ alarm\ is\ set\ or\ unset\n
+comment3.params=hour\ minute\ amPm
+comment3.target=void\ setTime(int,\ int,\ java.lang.String)
+comment3.text=\n\ This\ method\ sets\ the\ time\ of\ the\ alarm\ to\ the\ specified\ hour\ and\n\ minute\n
+comment4.params=
+comment4.target=void\ turnOn()
+comment4.text=\n\ This\ method\ updates\ the\ alarm\ to\ be\ set\:\ on.\n
+comment5.params=
+comment5.target=void\ turnOff()
+comment5.text=\n\ This\ method\ updates\ the\ alarm\ to\ be\ unset\:\ off.\n
+comment6.params=
+comment6.target=java.lang.String\ getTime()
+comment6.text=\n\ Returns\ the\ current\ time\ of\ this\ display\ in\ the\ format\ HH\:MM(a.m./p.m.)\n
+comment7.params=
+comment7.target=boolean\ isSet()
+comment7.text=\n\ Returns\ true\ or\ false\ if\ the\ alarm\ is\ set\ or\ unset\ accordingly\n
+numComments=8
